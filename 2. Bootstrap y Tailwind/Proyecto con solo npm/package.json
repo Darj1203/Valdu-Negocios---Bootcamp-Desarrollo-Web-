@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-con-solo-npm",
+  "version": "1.0.0",
+  "description": "Proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open:html",
+    "open:html": "npx live-server",
+    "build": "npm run copy-files",
+    "copy-files": "rmdir /S /Q dist && mkdir dist && xcopy src dist && xcopy node_modules dist\\node_modules /E /Y"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

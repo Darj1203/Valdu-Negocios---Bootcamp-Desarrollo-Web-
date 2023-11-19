@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/clases
+
+### Crear una nueva clase
+
+POST http://localhost:3000/clases
+Content-Type: application/json
+    
+    {
+        "nombre": "Clase 1",
+        "descripcion": "Descripcion de la clase 1",
+        "fecha": "2021-01-01",
+        "hora": "10:00"
+    }

@@ -1,0 +1,21 @@
+{
+  "name": "miprimeraappconexpress",
+  "version": "1.0.0",
+  "description": "Esta es mi primera Api de Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Darj1203",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
